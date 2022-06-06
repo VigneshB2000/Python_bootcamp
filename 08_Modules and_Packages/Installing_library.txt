@@ -1,0 +1,19 @@
+PS C:\Users\Vignesh_B> pip install colorama
+Collecting colorama
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Installing collected packages: colorama
+Successfully installed colorama-0.4.4
+WARNING: You are using pip version 22.0.4; however, version 22.1.2 is available.
+You should consider upgrading via the 'C:\Users\Vignesh_B\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
+PS C:\Users\Vignesh_B> python
+Python 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from colorama import init
+>>> init()
+>>> from colorama import Fore
+>>> print(Fore.GREEN + "some green text like the Matrix")
+some green text like the Matrix
+>>> print(Fore.YELLOW + "switch to yellow")
+switch to yellow
+>>> print(Fore.RED + "switch to RED")
+switch to RED
